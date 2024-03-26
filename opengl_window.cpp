@@ -10,6 +10,7 @@ OpenGLWindow::OpenGLWindow()
 
     QSurfaceFormat surfaceFormat;
     surfaceFormat.setDepthBufferSize(24);
+    surfaceFormat.setSamples(4);
     setFormat(surfaceFormat);
 }
 
